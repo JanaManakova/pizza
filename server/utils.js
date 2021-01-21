@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const fsp = fs.promises;
 const dirPath = path.resolve(__dirname, '/tmp');
-const filePath = path.resolve(dirPath, 'piza.json');
+const filePath = path.resolve(dirPath, 'pizzza.json');
 
 const readData = async () => {
     if (!fs.existsSync(filePath)) {
